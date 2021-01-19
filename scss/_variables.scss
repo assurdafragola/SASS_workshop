@@ -1,0 +1,31 @@
+
+$width-desktop: 1440px;
+$width-mobile: 375px;
+
+$colors-primary: (
+    team: hsl(0, 78%, 62%), 
+    supervisor: hsl(180, 62%, 55%),
+    karma: hsl(34, 97%, 64%),
+    calculator: hsl(212, 86%, 64%)
+);
+
+$colors-neutral: (
+    header: hsl(234, 12%, 34%),
+    text: hsl(229, 6%, 66%),
+    background: hsl(0, 0%, 98%)
+);
+
+$fontSize: 15px;
+
+$fontFamily: 'Poppins', sans-serif;
+
+
+$fontWeight: (
+    light: 200,
+    normal: 400,
+    bold: 600
+);
+
+
+
+

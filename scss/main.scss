@@ -1,0 +1,43 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+
+@import 'header';
+@import 'cards';
+
+
+body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: $width-desktop;
+    height: 920px;
+    align-items: center;
+    align-self: center;
+    background-color: map-get($colors-neutral, background);
+    margin: 20px 0;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 70%;
+    }
+};
+
+
+

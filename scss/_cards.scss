@@ -1,0 +1,54 @@
+.main {
+    width: 1150px;
+    align-items: center;
+    margin-bottom: 20px;
+    .main_column {
+        width: $width-desktop/3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+    }
+};
+
+.main_card.supervisor {
+    @include card(map-get($colors-primary, supervisor))
+};
+
+.main_card.team {
+    @include card(map-get($colors-primary, team))
+};
+
+.main_card.karma {
+    @include card(map-get($colors-primary, karma))
+};
+
+.main_card.calculator {
+    @include card(map-get($colors-primary, calculator))
+};
+
+.main_card {
+    padding: 20px 0;
+}
+
+.main_card_header {
+    font-weight: map-get($fontWeight, bold);
+    color: map-get($colors-neutral, header);
+    font-size: 1.3em;
+};
+
+
+.main_card_text {
+    color: map-get($colors-neutral, text);
+    font-size: $fontSize;
+    line-height: 23px;
+    font-size: 0.88em;
+    padding-top: 13px;
+
+};
+
+.main_card_icon {
+    position: absolute;
+    right: 34px;
+    bottom: 34px;
+};
