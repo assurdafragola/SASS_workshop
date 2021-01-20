@@ -5,10 +5,9 @@
     position: relative;
     border-top: 4px solid $border-color;
     border-radius: 2%;
-    box-shadow:  3px 0 20px 10px #ddd;
-    box-shadow:  0 3px 20px 6px #ddd;
-    box-shadow:  0 -3px 20px 6px #ddd;
+    box-shadow:  0 10px 20px 1px lighten(map-get($colors-neutral, header), 50%);
     padding: 32px;
     margin-bottom: 30px;
     box-sizing: border-box;
+    background-color: lighten(map-get($colors-neutral, background), $amount: 30%);
 }
